@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import './styles.scss';
 
-function TextLink({ text }) {
+function TextLink(props) {
     const [elemts, setElemts] = useState();
     const space = <div>&nbsp;</div>
     useEffect(() => {
-        const temp = text.split('').map((item, index) => {
+        setElemts(props.text.split('').map((item, index) => {
             return <div className="ani" style={{ animationDelay: index / 20 + `s` }}>
-                {item == ' ' ? space : item}
+                {item === ' ' ? space : item}
             </div>
-        });
-        setElemts(temp);
+        }));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
