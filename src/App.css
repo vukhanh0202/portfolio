@@ -1,8 +1,11 @@
-@import '~antd/dist/antd.css';
-.html, body{
-    font-family: 'Montserrat', sans-serif;
+@import "~antd/dist/antd.css";
+.html,
+body {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }

@@ -12,7 +12,7 @@ import TextLink from '../TextLink';
 
 function Header() {
     return (
-        <div className="header container">
+        <div className="header">
             <Row>
                 <Col span={5} className="logo">
                     <Psvg className="ani" />
