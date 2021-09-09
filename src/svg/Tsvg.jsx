@@ -4,7 +4,7 @@ import * as React from 'react';
 function Tsvg(props) {
     return (
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-            width="28px" height="40px" viewBox="1097 550 190 210"
+            width="28px" height="40px" viewBox="1098 550 190 210"
             preserveAspectRatio="xMidYMid meet" {...props}>
             <g transform="translate(0.000000,1042.000000) scale(0.100000,-0.100000)"
                 fill="#fff" stroke="none">
